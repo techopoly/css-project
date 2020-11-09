@@ -38,6 +38,7 @@ body {
 .main-nav__item a:active {
     color: wheat;
     border-bottom: 2px solid wheat;
+    
 }
 
 .main-nav__items {
