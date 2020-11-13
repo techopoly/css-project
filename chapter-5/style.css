@@ -90,6 +90,8 @@ body {
 }
 .plan-wrapper {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .section-title {
