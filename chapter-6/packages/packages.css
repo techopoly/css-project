@@ -1,5 +1,7 @@
 .plan-wrap{
     text-align: center;
+    height: 1500px;
+    padding-top: 200px;   
 }
 .each-plan{
     margin-top: 10px;
@@ -11,6 +13,7 @@
     display: inline-block;
     width: 30%;
     text-align: center;
+    position: relative;
 }
 
 .each-plan:hover,
@@ -18,28 +21,23 @@
     box-shadow: 4px 4px 4px rgba(7, 104, 23, 0.781);
     border-color:#082f1093;
     border-width: 6px;
-
 }
 
 .each-plan a{
     text-decoration: none;
-    font-family: 'Goldman', cursive;
-    
-    
+    font-family: 'Goldman', cursive;   
 }
 
 .each-plan__title{
     padding: 8px 0px;
     font-weight: bold;
     font-size: 30px;
-    color: black;
-    
+    color: black;    
 }
 
 .each-plan__desc{
     padding: 15px 0px;
     color: gray;
-
 }
 
 .each-plan__box{
@@ -58,6 +56,47 @@
 .each-plan.plus{
     background-color: #78de93;
 }
+
 .each-plan.premium{
     background-color: #41e66df8;
 }
+
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/2018/04/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg');    
+    z-index: -1;
+}
+
+.plus h1 {
+    display: inline-block;
+}
+
+.badge.plus{
+    display: inline-block;
+    padding: 4px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Goldman', cursive;
+    border-radius: 3px;
+    background: #e63774;
+    vertical-align: top;
+}
+
+.badge.premium{
+    position: absolute;
+    left: 380px;
+    top: 25px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Goldman', cursive;
+    border-radius: 3px;
+    background: #e63774;
+}
+
+
+
+

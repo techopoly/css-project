@@ -12,6 +12,8 @@ body {
     padding: 10px;
     background-color: #e57373;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 .main-header__brand {
     color: black;
