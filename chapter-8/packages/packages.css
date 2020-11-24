@@ -1,15 +1,15 @@
 .plan-wrap{
     text-align: center;
     height: 1500px;
-    padding-top: 200px;
+    padding-top: 12.5rem;
 
 }
 .each-plan{
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 0.625rem;
+    margin-right: 0.625rem;
     border: 2px solid #21b842;
     border-radius: 8px;
-    padding: 15px;
+    padding: 1rem;
     background-color: #a0e8b3;
     display: inline-block;
     width: 30%;
@@ -22,7 +22,7 @@
 .each-plan:active{
     box-shadow: 4px 4px 4px rgba(7, 104, 23, 0.781);
     border-color:#082f1093;
-    border-width: 6px;
+    border-width: 0.375rem;
 }
 
 .each-plan a{
@@ -31,22 +31,22 @@
 }
 
 .each-plan__title{
-    padding: 8px 0px;
+    padding: 0.5rem 0rem;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.8rem;
     color: black;    
 }
 
 .each-plan__desc{
-    padding: 15px 0px;
+    padding: 0.9rem 0rem;
     color: gray;
 }
 
 .each-plan__box{
-    padding: 8px 0px;
+    padding: 0.5rem 0rem;
     border: 1px solid green;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.625rem;
+    font-size: 1.25rem;
     color: black;
     background-color: white;
 }
@@ -77,10 +77,10 @@
 
 .badge.plus{
     display: inline-block;
-    padding: 4px;
-    margin-left: 15px;
+    padding: .25rem;
+    margin-left: .99rem;
     font-weight: bold;
-    font-size: 10px;
+    font-size: .625rem;
     font-family: 'Goldman', cursive;
     border-radius: 3px;
     background: #e63774;
@@ -89,11 +89,11 @@
 
 .badge.premium{
     position: absolute;
-    left: 380px;
-    top: 25px;
+    left: 23.75rem;
+    top: 1.5rem;
     font-weight: bold;
-    padding: 5px;
-    font-size: 10px;
+    padding: 0.31rem;
+    font-size: 0.625rem;
     font-family: 'Goldman', cursive;
     border-radius: 3px;
     background: #e63774;
