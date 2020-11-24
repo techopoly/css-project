@@ -12,9 +12,10 @@ body {
 
 #product-overview {
     background: url('https://cdn.pixabay.com/photo/2013/07/25/13/01/stones-167089_1280.jpg');
-    width: 100%;
-    height: 500px;
-    padding: 10px;
+    width: 100vw;
+    height: 33vh;
+    padding: 0.625rem;
+    background-position: left 0% bottom 86%;
 
 }
 #product-overview p {

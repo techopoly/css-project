@@ -156,3 +156,15 @@ body {
 .button.recommended:focus {
     outline: none;
 }
+
+  
+.backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh; /* the height would not work unless the block ancestor has height set */
+    background-color: rgba(0,0,0,0.8);
+    z-index: 30;
+    top: 0px;
+    display: none;
+  }
+  
